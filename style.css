@@ -1,0 +1,337 @@
+*{
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background: rgb(17, 17, 17);
+}
+
+header{
+    
+    background: url(img/Rectangle\ 464.png);
+    height: 100vh;
+}
+
+nav{
+    background: url(img/Rectangle\ 487\ \(1\).png);
+    padding-bottom: 120px;
+}
+
+.ish_vaqti{
+    font-size: 16px;
+    color: white;
+    height: 32px;
+    width: 262px;
+}
+
+.left{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    margin-left: 5px;
+}
+
+.logo{
+    height: 54px;
+    width: 112px;
+}
+
+.soat{
+    width: 12px;
+    height: 12px;
+    margin-top: 3px;
+}
+
+.begushiy_qismi{
+    margin-top: px;
+    background: black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow:black 30px 30px 30px;
+    
+}
+
+.container{
+    width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.work-time{
+    display: flex;
+    margin-top: 15px;
+    gap: 13px;
+    margin-left: 37px;
+}
+
+.right{
+    color: white;
+    display: flex;
+    gap: 63px;
+    margin-top: 40px;
+    margin-right: 5px;
+}
+
+.four{
+    background: #A92A1D;
+    height: 20px;
+    width: 111px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: -6px;
+}
+
+li
+{
+    color: white; /* Цвет обычной ссылки */ 
+    text-decoration: none; /* Убираем подчёркивание у ссылок */
+   }
+   li:visited {
+    color: #9c9898; /* Цвет посещённой ссылки */
+   } 
+   li:hover {
+    color: #A92A1D; /* Цвет ссылки при наведении */ 
+    text-decoration: none; /* Добавляем подчёркивание */
+   }
+
+.title{
+    color: white;
+    font-size: 60px;
+    margin-left: 260px;
+    margin-top: 246px;
+}
+
+.start{
+    color: white;
+    padding: 12px 28px;
+    background: #A92A1D;
+    width: 100px;
+    text-align: center;
+    margin-left: 260px;
+    margin-top: 34px;
+}
+
+.play{
+    width: 41px;
+    height: 41px;
+    margin-top: 35px;
+}
+
+.order{
+    display: flex;
+    gap: 25px;
+}
+
+.nazvaniye{
+    color: white;
+    margin-top: 155px;
+    text-align: center;
+    font-size: 48px;
+}
+
+.snazvaniye{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 28px;
+}
+
+.volna{
+    margin-left: 600px;
+    width: 163px;
+    margin-top: 8px;
+}
+
+.sportsmen-foto{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 113px;
+}
+
+.odin{
+    width: 270px;
+}
+
+.dva{
+    width: 270px;
+    margin-top: 80px;
+}
+
+.tri{
+    width: 270px;
+}
+
+.chetiri{
+    width: 270px;
+    margin-top: 80px;
+}
+
+.pyat{
+    width: 270px;
+}
+
+.glavni{
+    color: white;
+    font-size: 36px;
+}
+
+.vtorostepenni{
+    color: white;
+    width: 499px;
+    font-size: 18px;
+    border-left: 2px  solid #A92A1D;
+    padding-left: 14px;
+
+}
+
+.bio{
+    display: flex;
+    gap: 217px;
+    align-items: center;
+    margin-left: 157px;
+    margin-top: 120px;
+}
+
+.rasmla{
+    margin-top: 170px;
+    display: flex;
+    gap: 82px;
+    
+}
+
+.tosh{
+    width: 600px;
+}
+
+.bowi{
+    color: white;
+    font-size: 36px;
+}
+
+.ikincisi{
+    color: white;
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+.ucincisi{
+    color: white;
+    font-size: 18px;
+    width: 490px;
+    margin-top: 18px;
+}
+
+.matni{
+    margin-top: 200px;
+    line-height: 28px;
+}
+
+.kacka{
+    margin-left: 900px;
+    width: 450px;
+    margin-top: -30px;
+}
+
+.koroc{
+    width: 300px;
+}
+
+.qisqasi{
+    width: 300px;
+    margin-top: -140px;
+    height: 350px;
+}
+
+.short{
+    width: 300px;
+}
+
+.suratla{
+    margin-top: 87px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.yozu{
+    width: 299px;
+    color: white;
+    font-size: 18px;
+    margin-top: 18px;
+    text-align: center;
+}
+
+.yozuv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -60px;
+}
+
+main{
+    background: url(img/Rectangle\ 486.png);
+    height: 100vh;
+}
+
+.obuna{
+    color: white;
+    size: 36px;
+    text-align: center;
+    padding-top: 250px;
+}
+
+.sobuna{
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 18px;
+}
+
+.email{
+    color: white;
+    font-size: 18px;
+    margin-top: 22px;
+    text-align: center;
+    width: 402px;
+    height: 60px;
+    background: none;
+    
+}
+
+.gmail{
+    width: 402px;
+    height: 60px;
+    
+    margin-top: 38px;
+    margin-left: 500px;
+}
+
+.submit{
+    width: 402px;
+    height: 60px;
+    /* background-color: white; */
+    margin-top: 38px;
+    margin-left: 500px;
+}
+
+.nmail{
+    color: black;
+    font-size: 18px;
+    
+    text-align: center;
+    width: 402px;
+    height: 60px;
+}
+
+.kones{
+    color: #A92A1D;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
